@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@900&display=swap");
+/* font-family: 'Fredericka the Great', cursive; */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f5f2f0;
+  height: 100vh;
+  font-family: "Roboto";
+}
+
+img[alt="girl-image"] {
+  height: 100vh;
+}
+
+nav.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px;
+}
+nav.navbar ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+nav.navbar ul > li {
+  padding: 0 20px;
+  font-weight: 900;
+  font-family: "Roboto";
+}
+nav.navbar ul > li {
+  padding: 0 20px;
+}
+
+.line {
+  height: 2px;
+  background-color: #000000;
+  width: 361px;
+}
+.main-container {
+  background-image: url(./assets/pexels-rfstudio-3819572.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100vh;
+  background-color: #f5f2f0;
+}
+
+.main-body {
+  padding-left: 37%;
+  display: flex;
+  align-items: self-end;
+  justify-content: space-around;
+}
+
+h1.first-text {
+  letter-spacing: 2px;
+  font-size: 81px;
+  font-family: "Fredericka the Great", cursive;
+}
+.second-text {
+  font-family: "Roboto";
+  margin-left: 107px;
+}
+.main-body > p {
+  color: #828282;
+  font-family: "Roboto";
+  font-size: 39px;
+  margin-left: 84px;
+  position: relative;
+  top: 0px;
+  left: -171px;
+  font-weight: 900;
+}
+
+.main-body > ul {
+  list-style: none;
+}
+.main-body > ul > li {
+  width: 30px;
+  height: 30px;
+  padding: 10px 0;
+}
+.package-button {
+  display: flex;
+  justify-content: flex-end;
+}
+.btn-package {
+  background-color: #333333;
+  color: #ffffff;
+  padding: 10px 30px;
+  margin-right: 84px;
+  margin-top: 21px;
+}
+
+/* .third-text {
+  color: #828282;
+  font-family: "Roboto";
+  font-size: 13px;
+} */
+
+.quote-symbol {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.bottom-container {
+  padding-left: 37%;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  align-items: flex-end;
+  gap: 70px;
+  /* width: 100%;
+}
+
+.bottom-container > ul {
+  list-style: none; /* Remove default bullets */
+}
+.bottom-container > ul > li::before {
+  content: "\2022";
+  color: #828282;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+.bottom-container > ul > li:first-child::before {
+  content: "\2022";
+  color: #272626;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+.bottom-container > ul > li {
+  padding: 10px 0;
+}
+
+.line-bottom {
+  background-color: #6e6e6e;
+  height: 178px;
+  width: 2px;
+  position: relative;
+  top: -1px;
+  left: 58.5px;
+  z-index: 0;
+}
+
+ul.branches {
+  margin-right: 90px;
+}
+
+.bottom-img {
+  width: 262px;
+  margin-right: 93px;
+}
+.arrow-down {
+  width: 139px;
+  height: 206px;
+}
+
+p.quote-symbol {
+  font-size: 43px;
+}
+
+.description {
+  font-family: "Roboto";
+  margin-top: 19px;
+}
